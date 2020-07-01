@@ -1,6 +1,5 @@
 import ICreateCustomerDTO from '@modules/customers/dtos/ICreateCustomerDTO';
 import ICustomerRepository from '@modules/customers/repositories/ICustomersRepository';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { uuid } from 'uuidv4';
 import Customer from '../../infra/typeorm/entities/Customer';
 

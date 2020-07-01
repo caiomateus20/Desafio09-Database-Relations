@@ -1,6 +1,5 @@
 import IOrdersRepository from '@modules/orders/repositories/IOrdersRepository';
 import ICreateOrderDTO from '@modules/orders/dtos/ICreateOrderDTO';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { uuid } from 'uuidv4';
 import Order from '../../infra/typeorm/entities/Order';
 
